@@ -1,0 +1,98 @@
+
+Declare
+class Name_value
+{
+public:
+	string name;
+	int score;
+};
+
+vector<Name_value>n;
+void twice()
+{
+	int c=0;
+Statement	for(int i = 0; i < n.size; i++)
+	{
+		for(int j = i+1; j < (n.size()-i-1); j++)
+	}
+Statement	if(n[i].name==n[j].name)
+	{
+		c++;
+		break;
+	}
+}
+c++;
+break;
+}
+	}
+	if(c!=0)
+	{
+		cout << "Invalid input (name entered twice)." << endl; //Invalid statement
+		break;
+	}
+}
+	cout << "Invalid input." << endl; //Invalid statement
+}
+
+Variable
+void amount()
+{
+Output	cout << "\nName: " << n[i].name << "\nScore: " << n[i].value << endl; //Input name and Score
+}
+
+Variable
+void total()
+{
+	Name_value n1;
+Output	n1.name = "NoName 0";
+	n1.score = 0;
+	n.am(n1)
+}
+
+Variable
+void addStudents()
+{
+	Name_value n1;
+Output	cout << "Input name: " << endl;
+	cin >> n1.name;
+Output	cout << "Input score: " << endl;
+	cin >> n1.score;
+	n.am(n1)
+}
+
+Function
+int main() //Main function
+{
+	for(int i = 0;; i++)
+	{
+		int input
+		char c;
+Output		cout << "Enter student (1)." << endl; //Student identity
+Output		cout << "Student total score (2)." << endl; //Amount total
+Output		cout << "Student score (3)." << endl;
+		cin >> input;
+	}
+
+Statement	switch(input)
+	{
+Reference		case 1:
+		addStudents();
+		break;
+		
+Reference		case 2:
+		amount();
+		break;
+
+Reference		case 3:
+		twice();
+		break;
+		
+Reference		default:
+Output		cout << "Invalid."
+		break;
+	}
+	cout << "Terminate program." << endl; //Program end
+	break;
+	return 0;
+}
+Result: Determining the scores of students using the variables given to use in the exercise.
